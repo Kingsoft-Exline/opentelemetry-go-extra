@@ -1,8 +1,7 @@
-module github.com/uptrace/opentelemetry-go-extra/otelgorm
+module github.com/Kingsoft-Exline/opentelemetry-go-extra/tree/main/otelgorm
 
 go 1.17
 
-replace github.com/uptrace/opentelemetry-go-extra/otelsql => ../otelsql
 
 exclude go.opentelemetry.io/proto/otlp v0.15.0
 
