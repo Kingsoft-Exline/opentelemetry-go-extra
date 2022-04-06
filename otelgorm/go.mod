@@ -1,4 +1,4 @@
-module github.com/Kingsoft-Exline/opentelemetry-go-extra/tree/main/otelgorm
+module github.com/Kingsoft-Exline/opentelemetry-go-extra/otelgorm
 
 go 1.17
 
