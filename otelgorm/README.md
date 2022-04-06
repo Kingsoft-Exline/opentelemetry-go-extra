@@ -4,6 +4,7 @@
 
 otelgorm instrumentation records database queries and reports `DBStats` metrics.
 
+
 ## Installation
 
 ```shell
