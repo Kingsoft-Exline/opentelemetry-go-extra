@@ -51,7 +51,7 @@ type gormRegister interface {
 func (p otelPlugin) Initialize(db *gorm.DB) (err error) {
 	if !p.excludeMetrics {
 		if db, ok := db.ConnPool.(*sql.DB); ok {
-			otelsql.ReportDBStatsMetrics(db)
+			otelsql.ReportDBStatsMetrics(db, otelsql.WithAttributes(p.attrs...))
 		}
 	}
 
